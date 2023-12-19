@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 
                         Text(text = "Check readme to see how to reproduce the issue.")
                         Button(onClick = {
-                            val clip = ClipData.newPlainText("text", "Some Text text")
+                            val clip = ClipData.newPlainText("text", "Some test text")
                             (getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager).setPrimaryClip(clip)
                         }) {
                             Text(text = "Click me to add something to your clipboard")
