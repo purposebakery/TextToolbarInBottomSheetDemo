@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
                             Text(text = "Click me to add something to your clipboard")
                         }
 
-                        DemoTextField(supportingText = "Long click will not show text toolbar")
+                        DemoTextField(supportingText = "Long click will show text toolbar")
 
                         Button(onClick = { showingBottomSheet.value = true }) {
                             Text(text = "Click me to show bottom sheet")
